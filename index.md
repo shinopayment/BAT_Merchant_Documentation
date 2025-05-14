@@ -6,7 +6,7 @@
 
 | **Date** | **Comment** | **Author** | **Version** |
 |:--------:|:------------|:----------:|:-----------:|
-| 2025-05-14 | BAT Submit Deposit API<br>BAT Callback Response<br>BAT Requery API<br>BAT Get Supported Bank API | Jeffery Leo | 1.0 |
+| 2025-05-14 | BAT Submit Deposit/Payout API<br>BAT Callback Response<br>BAT Requery API<br>BAT Get Supported Bank API | Jeffery Leo | 1.0 |
 
 # Table of Contents
 
