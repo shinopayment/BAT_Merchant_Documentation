@@ -1344,4 +1344,3 @@ PH0EqsXIpgVfzK1fsDu/Q93+2lP24/A4dNj16ZMDJTt67mdjmwxd0c0/pbvsw5cVhX5OE2KodzuVl5S4
 | BAT 10013 | Merchant Balance is not sufficient. |
 | BAT 10014 | No PaymentRisk Able to be found. |
 | BAT 10015 | No Deposit Group Setting Able To Be Found. |
-| BAT 10016 | CustomerBankAccountHolderName or CustomerBankAccountNumber is empty. |# **BAT Merchant Integration Guide**
