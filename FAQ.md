@@ -66,15 +66,15 @@
 **Question:** Could you provide the callback IP for deposit and withdrawal so we can whitelist it?
 
 **Answer:** Deposit and Withdrawal both are having same callback IP
-- **OptimusPay Staging (测试环境) IP:** `20.48.112.89`
-- **OptimusPay Production (正式环境) IP:** `13.78.60.236`
+- **OptimusPay Staging IP:** `20.48.112.89`
+- **OptimusPay Production IP:** `13.78.60.236`
 
 ## 4. Environment IP Information
 **Question:** Is the information below in test environment the same as in the production environment?
 
 **Answer:** Can refer to clause 3.
-- **OptimusPay Staging (测试环境) IP:** `20.48.112.89`
-- **OptimusPay Production (正式环境) IP:** `13.78.60.236`
+- **OptimusPay Staging IP:** `20.48.112.89`
+- **OptimusPay Production IP:** `13.78.60.236`
 
 **Note:** If manual callback is in the BackOffice, there will be a different URL:
 - `https://backoffice.optimuspay168.com`
