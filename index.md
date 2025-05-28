@@ -110,8 +110,8 @@ Signature will be used by RSA Method with sha1 hash algorithm.
 
 **Integration URL**
 
-Staging: `{DOMAIN}/API/Deposit/CreateOrder`  
-Production: `{DOMAIN}/API/Deposit/CreateOrder`
+Staging: `{DOMAIN}/Deposit/CreateOrder`  
+Production: `{DOMAIN}/Deposit/CreateOrder`
 
 **Post Method**: Json Post (Content-Type: application/json)
 
@@ -442,8 +442,8 @@ true
 
 **Integration URL**
 
-Staging: `{DOMAIN}/API/Deposit/CheckOrderDetail`  
-Production: `{DOMAIN}/API/Deposit/CheckOrderDetail`
+Staging: `{DOMAIN}/Deposit/CheckOrderDetail`  
+Production: `{DOMAIN}/Deposit/CheckOrderDetail`
 
 **Post Method**: Json Post (Content-Type: application/json)
 
@@ -527,7 +527,7 @@ Production: `{DOMAIN}/API/Deposit/CheckOrderDetail`
 
 **Endpoint**
 
-`{DOMAIN}/API/Payout/Create`
+`{DOMAIN}/Payout/Create`
 
 **Method**
 
@@ -931,7 +931,7 @@ True
 
 **Endpoint:**
 
-`{DOMAIN}/API/Payout/CheckOrderDetail`
+`{DOMAIN}/Payout/CheckOrderDetail`
 
 **Method:**
 
@@ -1021,7 +1021,7 @@ HTTP POST with application/json content type
 
 **Endpoint:**
 
-`{DOMAIN}/API/Bank/GetSupportedBank`
+`{DOMAIN}/Bank/GetSupportedBank`
 
 **Post Method:** GET
 
@@ -1033,7 +1033,7 @@ HTTP POST with application/json content type
 
 **Sample Request:**
 
-`{DOMAIN}/API/Bank/GetSupportedBank?MerchantCode=J1`
+`{DOMAIN}/Bank/GetSupportedBank?MerchantCode=J1`
 
 ## 8.3. Response Parameter
 
@@ -1086,7 +1086,7 @@ HTTP POST with application/json content type
 
 **Endpoint:**
 
-`{DOMAIN}/API/Merchant/GetMerchantBalance`
+`{DOMAIN}/Merchant/GetMerchantBalance`
 
 **Method:**
 
