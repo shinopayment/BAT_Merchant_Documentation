@@ -14,23 +14,23 @@
 </tr>
 <tr>
 <td>Deposit Request</td>
-<td><code>https://mapi.optimuspay88.com/APIM/Deposit/CreateOrder</code></td>
+<td><code>{DOMAIN}/Deposit/CreateOrder</code></td>
 </tr>
 <tr>
 <td>Deposit Query</td>
-<td><code>https://mapi.optimuspay88.com/APIM/Deposit/CheckOrderDetail</code></td>
+<td><code>{DOMAIN}/Deposit/CheckOrderDetail</code></td>
 </tr>
 <tr>
 <td>Withdraw Request</td>
-<td><code>https://mapi.optimuspay88.com/APIM/Payout/CreateOrder</code></td>
+<td><code>{DOMAIN}/Payout/CreateOrder</code></td>
 </tr>
 <tr>
 <td>Withdraw Query</td>
-<td><code>https://mapi.optimuspay88.com/APIM/Payout/CreateOrder</code></td>
+<td><code>{DOMAIN}/Payout/CreateOrder</code></td>
 </tr>
 <tr>
 <td>Balance Query</td>
-<td><code>https://mapi.optimuspay88.com/APIM/Merchant/GetMerchantBalance</code></td>
+<td><code>{DOMAIN}/Merchant/GetMerchantBalance</code></td>
 </tr>
 </table>
 
@@ -42,23 +42,23 @@
 </tr>
 <tr>
 <td>Deposit Request</td>
-<td><code>https://mapi.optimuspay168.com/APIM/Deposit/CreateOrder</code></td>
+<td><code>{DOMAIN}/Deposit/CreateOrder</code></td>
 </tr>
 <tr>
 <td>Deposit Query</td>
-<td><code>https://mapi.optimuspay168.com/APIM/Deposit/CheckOrderDetail</code></td>
+<td><code>{DOMAIN}/Deposit/CheckOrderDetail</code></td>
 </tr>
 <tr>
 <td>Withdraw Request</td>
-<td><code>https://mapi.optimuspay168.com/APIM/Payout/CreateOrder</code></td>
+<td><code>{DOMAIN}/Payout/CreateOrder</code></td>
 </tr>
 <tr>
 <td>Withdraw Query</td>
-<td><code>https://mapi.optimuspay168.com/APIM/Payout/CheckOrderDetail</code></td>
+<td><code>{DOMAIN}/Payout/CheckOrderDetail</code></td>
 </tr>
 <tr>
 <td>Balance Query</td>
-<td><code>https://mapi.optimuspay168.com/APIM/Merchant/GetMerchantBalance</code></td>
+<td><code>{DOMAIN}/Merchant/GetMerchantBalance</code></td>
 </tr>
 </table>
 
@@ -66,19 +66,19 @@
 **Question:** Could you provide the callback IP for deposit and withdrawal so we can whitelist it?
 
 **Answer:** Deposit and Withdrawal both are having same callback IP
-- **OptimusPay Staging IP:** `20.48.112.89`
-- **OptimusPay Production IP:** `13.78.60.236`
+- **BAT Staging IP:** `20.48.112.89`
+- **BAT Production IP:** `13.78.60.236`
 
 ## 4. Environment IP Information
 **Question:** Is the information below in test environment the same as in the production environment?
 
 **Answer:** Can refer to clause 3.
-- **OptimusPay Staging IP:** `20.48.112.89`
-- **OptimusPay Production IP:** `13.78.60.236`
+- **BAT Staging IP:** `20.48.112.89`
+- **BAT Production IP:** `13.78.60.236`
 
 **Note:** If manual callback is in the BackOffice, there will be a different URL:
-- `https://backoffice.optimuspay168.com`
-- `https://backoffice.optimuspay88.com`
+- **BAT Staging:** `https://backoffice.oppay88.com`
+- **BAT Production:** `https://backoffice.battt.io`
 
 ## 5. Channel Status
 **Question:** Is the channel code currently open and running?
