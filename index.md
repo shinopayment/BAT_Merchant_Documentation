@@ -1341,7 +1341,6 @@ PH0EqsXIpgVfzK1fsDu/Q93+2lP24/A4dNj16ZMDJTt67mdjmwxd0c0/pbvsw5cVhX5OE2KodzuVl5S4
 | VNPT | VNPT Money | VNPT Money |
 | VPB | VP Bank | Ngân hàng TMCP Việt Nam Thịnh Vượng |
 | VRB | Russia Joint Venture Bank | Ngân hàng Liên doanh Việt - Nga |
-| VSCB | Russia Joint Venture Bank | Ngân hàng Liên doanh Việt - Nga |
 | VTL | Viettel Money | Tổng Công ty Dịch vụ số Viettel - Chi nhánh tập đoàn công nghiệp viễn thông Quân Đội |
 | VTN | Vietin Bank | Ngân hàng TMCP Công thương Việt Nam |
 | WVN | Woori Bank | Ngân hàng TNHH MTV Woori Việt Nam |
