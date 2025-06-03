@@ -1295,7 +1295,7 @@ PH0EqsXIpgVfzK1fsDu/Q93+2lP24/A4dNj16ZMDJTt67mdjmwxd0c0/pbvsw5cVhX5OE2KodzuVl5S4
 | EXB | Exim Bank | NHTMCP Xuat Nhap Khau |
 | GPB | GP Bank | Ngân Hàng TMCP Dầu Khí Toàn Cầu |
 | HDB | HD Bank | NHTMCP phat trien Tp HCM |
-| HLB | Hong Leong Bank | Ngân Hàng TNHH Một Thành Viên Hong Leong Việt Nam |
+| HLBVN | Hong Leong Bank | Ngân Hàng TNHH Một Thành Viên Hong Leong Việt Nam |
 | KLB | Kien Long bank | NHTMCP Kien Long |
 | LPB | Lien Viet Post Bank | Ngân hàng TMCP Bưu Điện Liên Việt |
 | MBB | MB Bank | NHTMCP Quan Doi |
