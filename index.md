@@ -1,12 +1,13 @@
 # **BAT Merchant Integration Guide**
 
-**Version 1.0**
+**Version 1.1**
 
 ## **Revision History:**
 
 | **Date** | **Comment** | **Author** | **Version** |
 |:--------:|:------------|:----------:|:-----------:|
 | 2025-05-14 | BAT Submit Deposit/Payout API<br>BAT Callback Response<br>BAT Requery API<br>BAT Get Supported Bank API | Jeffery Leo | 1.0 |
+| 2025-06-03 | BAT Update Bank List | Jeffery Leo | 1.1 |
 
 # Table of Contents
 
@@ -1291,27 +1292,59 @@ PH0EqsXIpgVfzK1fsDu/Q93+2lP24/A4dNj16ZMDJTt67mdjmwxd0c0/pbvsw5cVhX5OE2KodzuVl5S4
 | BAB | Bac A bank | NHTMCP Bac A |
 | BIDV | Bank for Investment and Development of Vietnam | Ngân hàng TMCP Đầu tư và Phát triển Việt Nam |
 | BVB | Bao Viet Bank | NH BAO VIET |
+| CAKE | CAKE by VP Bank | TMCP Việt Nam Thịnh Vượng - Ngân hàng số CAKE by VPBank |
+| CBB | CB Bank | Ngân hàng Thương mại TNHH MTV Xây dựng Việt Nam |
+| CIMBVN | CIMB Bank | Ngân hàng TNHH MTV CIMB Việt Nam |
+| CITIVN | Citi Bank | Ngân hàng Citibank, N.A. - Chi nhánh Hà Nội |
+| COOP | COOP BANK | Ngân hàng Hợp tác xã Việt Nam |
 | DAB | DongA Bank | Ngan hang dong a dien tu |
+| DBSVN | DBS Bank | DBS Bank Ltd - Chi nhánh Thành phố Hồ Chí Minh |
 | EXB | Exim Bank | NHTMCP Xuat Nhap Khau |
 | GPB | GP Bank | Ngân Hàng TMCP Dầu Khí Toàn Cầu |
 | HDB | HD Bank | NHTMCP phat trien Tp HCM |
 | HLBVN | Hong Leong Bank | Ngân Hàng TNHH Một Thành Viên Hong Leong Việt Nam |
+| HSBCVN | HSBC Bank | Ngân hàng TNHH MTV HSBC (Việt Nam) |
+| IBK | IBK Bank | Ngân hàng Công nghiệp Hàn Quốc - Chi nhánh Hà Nội |
+| IVB | Indovina Bank | Ngân hàng TNHH Indovina |
+| KBANKVN | Kasikorn Bank | Ngân hàng Đại chúng TNHH Kasikornbank |
+| KBVN | Kookmin Bank | Ngân hàng Kookmin - Chi nhánh Hà Nội |
 | KLB | Kien Long bank | NHTMCP Kien Long |
 | LPB | Lien Viet Post Bank | Ngân hàng TMCP Bưu Điện Liên Việt |
+| MAFC | Mirae Asset Finance Company | Công ty Tài chính TNHH MTV Mirae Asset (Việt Nam) |
 | MBB | MB Bank | NHTMCP Quan Doi |
 | MSB | MSB | Vietnam Maritime Commercial Joint Stock Bank |
 | NAB | Nam A Bank | NHTMCP Nam A |
-| NCB | National citizen bank | Ngan hang TMCP Quoc Dan |
+| NCB | National Citizen Bank | Ngan hang TMCP Quoc Dan |
+| NHB | Nonghyup Bank | Ngân hàng Nonghyup - Chi nhánh Hà Nội |
 | OB | Ocean Bank | Ngân hàng TMCP Đại Dương |
-| OCB | Orient Commercial Joint Stock Bank | Orient Commercial Joint Stock Bank |
+| OCB | Orient Commercial Joint Stock Bank | Ngân hàng TMCP Phương Đông |
+| PBVN | Public Bank | Ngân hàng TNHH MTV Public Việt Nam |
 | PGB | PGBank | Ngân hàng TMCP Xăng dầu Petrolimex |
 | PVCOM | PVCOM | Trang chủ \| Ngân hàng TMCP Đại Chúng Việt Nam |
 | SAB | Sacom Bank | Ngân hàng thương mại cổ phần Sài Gòn Thương Tín |
 | SCB | Saigon Commercial Bank | NHTMCP Sai Gon |
+| SCVN | Standard Chartered Bank | Ngân hàng TNHH MTV Standard Chartered Bank Việt Nam |
 | SEAB | SeABank | Southeast Asia Commercial Joint Stock Bank |
 | SGB | SAIGONBANK | Ngân Hàng TMCP Sài Gòn Công Thương |
 | SHB | Saigon - Hanoi Commercial Joint Stock Bank | Ngân hàng TMCP Sài Gòn - Hà Nội |
 | SHBVN | Shinhan Bank VN | Ngân hàng TNHH MTV Shinhan Việt Nam |
+| TEC | Techcom Bank | Ngân hàng TMCP Kỹ thương Việt Nam |
+| TPB | Tien Phong Bank | Ngân hàng TMCP Tiên Phong |
+| UBANK | UBank by VP Bank | TMCP Việt Nam Thịnh Vượng - Ngân hàng số Ubank by VPBank |
+| UOBVN | United Overseas Bank | Ngân hàng United Overseas - Chi nhánh TP. Hồ Chí Minh |
+| VAB | Viet A Bank | Ngân hàng TMCP Việt Á |
+| VB | Viet Bank | Ngân hàng TMCP Việt Nam Thương Tín |
+| VBSP | Social Policy Bank of Vietnam | Ngân hàng Chính sách Xã hội |
+| VCB | Vietcom Bank | Ngân hàng TMCP Ngoại Thương Việt Nam |
+| VCCB | Viet Capital Bank | Ngân hàng TMCP Bản Việt |
+| VIB | Vietnam International Commercial Joint Stock Bank | Ngân hàng TMCP Quốc tế Việt Nam |
+| VNPT | VNPT Money | VNPT Money |
+| VPB | VP Bank | Ngân hàng TMCP Việt Nam Thịnh Vượng |
+| VRB | Russia Joint Venture Bank | Ngân hàng Liên doanh Việt - Nga |
+| VSCB | Russia Joint Venture Bank | Ngân hàng Liên doanh Việt - Nga |
+| VTL | Viettel Money | Tổng Công ty Dịch vụ số Viettel - Chi nhánh tập đoàn công nghiệp viễn thông Quân Đội |
+| VTN | Vietin Bank | Ngân hàng TMCP Công thương Việt Nam |
+| WVN | Woori Bank | Ngân hàng TNHH MTV Woori Việt Nam |
 
 # 12. Status Description
 
