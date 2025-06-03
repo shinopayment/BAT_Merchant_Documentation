@@ -66,15 +66,15 @@
 **Question:** Could you provide the callback IP for deposit and withdrawal so we can whitelist it?
 
 **Answer:** Deposit and Withdrawal both are having same callback IP
-- **BAT Staging IP:** `20.48.112.89`
-- **BAT Production IP:** `13.78.60.236`
+- **BAT Staging IP:** `124.217.246.238`
+- **BAT Production IP:** `20.198.240.65, 20.212.168.94`
 
 ## 4. Environment IP Information
 **Question:** Is the information below in test environment the same as in the production environment?
 
 **Answer:** Can refer to clause 3.
-- **BAT Staging IP:** `20.48.112.89`
-- **BAT Production IP:** `13.78.60.236`
+- **BAT Staging IP:** `124.217.246.238`
+- **BAT Production IP:** `20.198.240.65, 20.212.168.94`
 
 **Note:** If manual callback is in the BackOffice, there will be a different URL:
 - **BAT Staging:** `https://backoffice.oppay88.com`
