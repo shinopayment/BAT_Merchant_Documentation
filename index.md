@@ -149,7 +149,7 @@ Production: `{DOMAIN}/Deposit/CreateOrder`
 | ReturnUrl | string | Mandatory | Client redirect URL |
 | IPAddress | string | Mandatory | Client IP<br>Sample Value: 192.168.0.1 |
 | PaymentMethod | string | Mandatory | The Payment Method that customer use for deposit.<br>Sample Value: BQR<br>*BQR - Bank QR*|
-| MerchantPaymentRiskId | string | Mandatory | Must pass in MerchantPaymentRiskId.|
+| MerchantPaymentRiskId | string | Optional | No need to pass if your side don't have any payment risk setting, our default payment risk id is 0.|
 
 ## 2.4. Form Encrypted Data
 
